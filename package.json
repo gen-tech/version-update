@@ -1,0 +1,37 @@
+{
+  "name": "@gen-tech/version-update",
+  "version": "0.1.0",
+  "description": "A tool to update package.json version by its command line interface",
+  "main": "index.js",
+  "bin": {
+    "gtvu": "./dist/cli.js"
+  },
+  "scripts": {
+    "prepublish": "node ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gen-tech/version-update.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "json",
+    "version",
+    "update",
+    "cli"
+  ],
+  "author": {
+    "email": "alisahinozcelik@gmail.com",
+    "name": "Ali Şahin Özçelik"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gen-tech/version-update/issues"
+  },
+  "homepage": "https://github.com/gen-tech/version-update#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "update-json": "^1.0.0"
+  }
+}
