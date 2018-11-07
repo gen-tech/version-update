@@ -1,10 +1,10 @@
-# @gen-tech/version-update
+# Version Update
 A tool to update package.json version by its command line interface.
 
 [![npm](https://img.shields.io/npm/v/@gen-tech/version-update.svg)](https://www.npmjs.com/package/@gen-tech/version-update)
 [![npm](https://img.shields.io/npm/dw/@gen-tech/version-update.svg)](https://www.npmjs.com/package/@gen-tech/version-update)
 
-Useful in build automations etc.
+> Useful in build automations etc.
 
 ## Install
 `npm install @gen-tech/version-update --save-dev`
